@@ -17,5 +17,5 @@ for app in source_apps:
         icon_path = os.path.join(payload_path, os.listdir(payload_path)[0], icon_name + ".png")
         if os.path.exists(icon_path):
             break
-    shutil.move(icon_path, os.path.join("./icon", app.name[:-4] + ".png"))
+    shutil.move(icon_path, os.path.join("../icon", app.name[:-4] + ".png"))
     shutil.rmtree("./t")
