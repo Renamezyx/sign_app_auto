@@ -77,8 +77,8 @@ class AppTools(object):
         shutil.copy(welcome_path, os.path.join(os.path.abspath(self.app_slist_path), "ZFYWelcome.plist"))
 
     def to_zip_to_app(self, app_name):
-        new_app_path = shutil.make_archive(app_name, "zip", self.app_slist_path)
-        return shutil.move(os.path.dirname(new_app_path), "../../source/" + app_name + ".ipa")
+        new_app_path = shutil.make_archive(app_name, "zip", os.path.dirname(os.path.dirname(os.path.abspath(self.app_slist_path))))
+        return shutil.move(new_app_path, "../../source/" + app_name + ".ipa")
 
     def clear_source(self, path):
-        shutil.rmtree(path)
+        shutil.rmtree(os.path.abspath(path))
