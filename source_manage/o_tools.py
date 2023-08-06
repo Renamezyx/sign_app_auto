@@ -20,9 +20,8 @@ class OTlolls(object):
         "Referer": "http://175.178.73.5/FRKToHDckx.php/category/add?dialog=1",
         "Accept-Encoding": "gzip",
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "Cookie": "PHPSESSID=0sdi7p2jgqo8n365oduq1bdk4l; kt_aside_menu_wrapperst=0; ACG-SHOP=jdipjerscruvj23i1vn4mu90is; df2c4333db1404e7c5cf4df435bc20f9=6b005e72-6d9b-4d3e-97f0-aa602417b553.w_oZPy-jdAN5WUyO6bavBvwX3Iw; order=id%20desc; serverType=nginx; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22176****8754%22%7D%7D; pro_end=-1; ltd_end=-1; memSize=1998; sites_path=/www/wwwroot; site_model=php; db_page_model=mysql; backup_path=/www/backup; PHPSESSID=7nd3afuhtqbsudurdvtvkppn50",
-        "Connection": "keep-alive",
-        "Postman-Token": "df8b9bb7-b0b4-498f-a592-f67a23587b51",
+        "Cookie": "PHPSESSID=0sdi7p2jgqo8n365oduq1bdk4l; kt_aside_menu_wrapperst=0; ACG-SHOP=jdipjerscruvj23i1vn4mu90is; df2c4333db1404e7c5cf4df435bc20f9=6b005e72-6d9b-4d3e-97f0-aa602417b553.w_oZPy-jdAN5WUyO6bavBvwX3Iw; order=id%20desc; serverType=nginx; bt_user_info=%7B%22status%22%3Atrue%2C%22msg%22%3A%22%u83B7%u53D6%u6210%u529F%21%22%2C%22data%22%3A%7B%22username%22%3A%22176****8754%22%7D%7D; pro_end=-1; ltd_end=-1; memSize=1998; sites_path=/www/wwwroot; site_model=php; db_page_model=mysql; backup_path=/www/backup",
+        "Connection": "keep-alive"
     }
 
     @classmethod

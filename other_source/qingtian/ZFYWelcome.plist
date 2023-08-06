@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MTB</key>
+	<string>m2</string>
+	<key>QQ</key>
+	<string>2274466264</string>
+	<key>QQQ</key>
+	<string>2274466264</string>
+	<key>WX</key>
+	<string>Therzyx@123</string>
+	<key>aletInfo</key>
+	<real>1</real>
+	<key>blur</key>
+	<false/>
+	<key>btnInfos</key>
+	<array>
+		<dict>
+			<key>actionType</key>
+			<string>4</string>
+			<key>btnTitle</key>
+			<string>加入QQ群</string>
+			<key>urlStr</key>
+			<string>https://qm.qq.com/cgi-bin/qm/qr?k=671464190</string>
+		</dict>
+		<dict>
+			<key>actionType</key>
+			<string>5</string>
+			<key>btnTitle</key>
+			<string>进入应用</string>
+		</dict>
+	</array>
+	<key>buttonColor</key>
+	<string>#ea90aa</string>
+	<key>buttonFix</key>
+	<false/>
+	<key>captionText</key>
+	<string>感谢你的使用，如有软件更新失效修复，请联系我们</string>
+	<key>fullScreen</key>
+	<false/>
+	<key>listContents</key>
+	<array>
+		<string>请勿用于非法用途</string>
+		<string>2274466264</string>
+		<string>Therzyx</string>
+	</array>
+	<key>listTitles</key>
+	<array>
+		<string>本软件仅供学习交流使用</string>
+		<string>联系QQ</string>
+		<string>联系VX</string>
+	</array>
+	<key>logo</key>
+	<string>icon1.png</string>
+	<key>logoCornerRadius</key>
+	<real>10.5</real>
+	<key>pullToClose</key>
+	<false/>
+	<key>showCerExpire</key>
+	<false/>
+	<key>subTitle</key>
+	<string>因为热爱 所以专注</string>
+	<key>title</key>
+	<string>元元源</string>
+</dict>
+</plist>
