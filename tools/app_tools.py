@@ -74,11 +74,16 @@ class AppTools(object):
         return {"display_name": display_name, "version": version}
 
     def update_zfy_welcome(self, welcome_path):
-        shutil.copy(welcome_path, os.path.join(os.path.abspath(self.app_slist_path), "ZFYWelcome.plist"))
+        shutil.copy(welcome_path, os.path.join(os.path.abspath(self.app_slist_path),
+                                               "../other_source/qingtian/base_source/ZFYWelcome.plist"))
+
+    def update_zfy_icon1(self, zfy_icon_path):
+        shutil.copy(zfy_icon_path, os.path.join(os.path.abspath(self.app_slist_path), "icon1.png"))
 
     def to_zip_to_app(self, app_name):
-        new_app_path = shutil.make_archive(app_name, "zip", os.path.dirname(os.path.dirname(os.path.abspath(self.app_slist_path))))
-        return shutil.move(new_app_path, "../../source/" + app_name + ".ipa")
+        new_app_path = shutil.make_archive(app_name, "zip",
+                                           os.path.dirname(os.path.dirname(os.path.abspath(self.app_slist_path))))
+        return shutil.move(new_app_path, "../../sources/" + app_name + ".ipa")
 
     def clear_source(self, path):
         shutil.rmtree(os.path.abspath(path))

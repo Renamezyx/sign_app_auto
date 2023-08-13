@@ -93,3 +93,10 @@ class QTools(object):
                 f.write(str(app_info) + "\n")
 
 
+if __name__ == '__main__':
+    q = QTools()
+    sources_path = q.get_source_path(abs_paths=["ios游戏"])
+    apps_info = []
+    for source_path in sources_path:
+        apps_info.append(q.get_app_info(path=source_path))
+    q.save_app_info(apps_info, path="./app_info.txt")

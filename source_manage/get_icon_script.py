@@ -1,4 +1,4 @@
-from source_manage.app_tools import AppTools
+from tools.app_tools import AppTools
 
 source_path = "../other_source/qingtian/source_app"
 get_icon = AppTools(

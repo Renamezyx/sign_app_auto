@@ -2,6 +2,30 @@
 此项目仅作为学习使用，无其他用途 
 
 ## 项目介绍
+### 项目设计
+#### 总体架构
+- icon `存放 app icon, 提交GitHub 作为静态资源服务器` 
+  - xxx.png
+  - ...
+- logs `日志文件目录`
+  - xxx.log
+  - ...
+- other_source `其他源(子)项目` 
+  - qingtian `晴天源`
+    - source_app `app资源 作中间cache使用`
+      - xxx.ipa
+      - ...
+    - app_info.txt
+    - describe.md `子项目描述文件`
+    - q_tools.py `晴天源工具`
+    - script.py `脚本（入口）`
+    - static
+  - ...
+- source_manage `元元源项目`
+  - 
+
+- tools `公用工具集合`
+  -- mysql_base.py `mysql 公共工具类`
 ### 功能介绍
 ### 更新日志
 #### 2023-07-31
